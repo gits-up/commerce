@@ -1,4 +1,4 @@
-import 'package:commerce/features/authentication/controllers_onboarding/onboarding_controller.dart';
+import '../../controllers/onboarding/onboarding_controller.dart';
 import 'package:commerce/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
 import 'package:commerce/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
 import 'package:commerce/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
@@ -7,6 +7,8 @@ import 'package:commerce/utils/constants/image_strings.dart';
 import 'package:commerce/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+
 
 
 class OnBoardingScreen extends StatelessWidget {
